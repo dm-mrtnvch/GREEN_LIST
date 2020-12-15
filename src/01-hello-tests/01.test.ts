@@ -12,7 +12,6 @@ beforeEach(() => {
 
 test('sum should be correct', () => {
 
-
     const result1 = sum(a, b);
     const result2 = sum(b, c);
 
