@@ -6,14 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import {splitIntoWords} from './01-hello-tests/01';
 
 
-
-
-const sentence = 'Hello my friends!';
-const result = splitIntoWords(sentence)
-console.log(result[0] === 'hello');
-console.log(result[1] === 'my');
-console.log(result[2] === 'friend');
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
