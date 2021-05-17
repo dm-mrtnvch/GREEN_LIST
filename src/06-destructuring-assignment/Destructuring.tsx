@@ -20,18 +20,13 @@ function useDimychState(m: string) {
     return [m, function(){}]
 }
 
-function useDimychState2(m: string) {
-    return {
-        message: m,
-        setMessage: function(){}
-    }
-}
+//
 
 
 export const ManComponent: React.FC<PropsType> = ({title, man, ...restProps}) => {
 
-    // const [message, setMessage] = useDimychState('hello')
-    const [message, setMessage] = useDimychState2('hello')
+    const [message, setMessage] = useDimychState('hello')
+    // const [message, setMessage] = useDimychState2('hello')
 
     return <div>
         <h1>{title}</h1>

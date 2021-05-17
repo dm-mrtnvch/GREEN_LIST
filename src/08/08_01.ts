@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-const export usersArray = ['Dimych', 'Natasha', 'Valera', 'Katya']
+
+// export const usersArray = ['Dimych', 'Natasha', 'Valera', 'Katya']
 
 export const userObj = {
     '0': 'Dimych',
@@ -28,10 +29,10 @@ users[user.id] = user
 delete users[user.id]
 users[user.id].name = 'Vitya'
 
-
-export const usersArray = {
-    '101': {id: 101, name: 'Dimych'},
-    '3232312': {id: 3232312, name: 'Natasha'},
-    '1212': {id: 1212, name: 'Valera'},
-    '1': {id: 1, name: 'Katya'}}
-
+//
+// export const usersArray = {
+//     '101': {id: 101, name: 'Dimych'},
+//     '3232312': {id: 3232312, name: 'Natasha'},
+//     '1212': {id: 1212, name: 'Valera'},
+//     '1': {id: 1, name: 'Katya'}}
+//
